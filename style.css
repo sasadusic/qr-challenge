@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Ma+Shan+Zheng&family=Neucha&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@400;700&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  }
+  *{
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background: var(--light-gray);
+  }
+  p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.card{
+    width: min(300px, 90vw);
+    background: var(--white);
+    border-radius: 25px;
+    padding: 14px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .image{
+    width: 100%;
+    /* padding: 16px; */
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 18px
+  }
+  .header{
+    position: relative;
+    color: var(--dark-blue);
+    margin: 0 10px 18px 10px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .text{
+    position: relative;
+    color: var(--grayish-blue);
+    margin: 0 14px 32px 14px;
+    line-height: 18px;
+  }
+  .attribution{
+    position: relative;
+    margin-top: 50px;
+  }
+  @media (width < 576px) {
+    .card{
+      margin: 24px 0;
+
+  }
+}

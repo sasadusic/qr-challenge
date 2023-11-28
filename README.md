@@ -1,2 +1,2 @@
 # qr-challenge
-Frontend Mentor QR Challenge Solution
+Frontend Mentor Challenge Solution
